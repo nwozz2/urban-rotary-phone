@@ -2,12 +2,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = ""
-    OWNER_ID = "683538773" # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "ViruZs"
+    API_KEY = "1189526512:AAFtncaSCxcc0iPVnfO3tiEwF8_4Emnw1hg"
+    OWNER_ID = "489660070" # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "Worldorder2"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI =  @ref:postgresql-sinuous-15571'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
@@ -15,10 +15,10 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    DONATION_LINK = None  # EG, paypal
+    SUDO_USERS = [758221157]  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = [999134361]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = [999134361,758221157,489660070]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    DONATION_LINK = https://paypal.me/nwoz  # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = False  # Whether or not you should delete "blue text must click" commands
